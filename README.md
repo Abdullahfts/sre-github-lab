@@ -1,8 +1,6 @@
-\# Student Task Tracker
+# Student Task Tracker
 
-
-
-\## Overview
+## Overview
 
 Students need a simple way to track coursework tasks and see what remains.
 
@@ -10,95 +8,76 @@ The proposed system will help a student record tasks and mark them complete.
 
 The tracker helps students see their pending coursework at a glance so they miss fewer deadlines.
 
+## Scope
 
+- In scope: Add a coursework task with a title.
 
-\## Scope
+- In scope: List saved tasks.
 
-\- In scope: Add a coursework task with a title.
+- In scope: Mark a task complete.
 
-\- In scope: List saved tasks.
+- Out of scope: Fee payments.
 
-\- In scope: Mark a task complete.
+- Out of scope: Automatic grading.
 
-\- Out of scope: Fee payments.
+## Stakeholders
 
-\- Out of scope: Automatic grading.
+- Student: Records tasks and checks progress.
 
+- Instructor: Needs to see that requirements are clear, testable, and complete.
 
+- Project maintainer: Needs to manage requirement changes and keep the README up to date.
 
-\## Stakeholders
+## Functional requirements
 
-\- Student: Records tasks and checks progress.
+- FR-01: The system shall let a student create a task with a title.
 
-\- Instructor: Needs to see that requirements are clear, testable, and complete.
+- FR-02: The system shall display the student's saved tasks.
 
-\- Project maintainer: Needs to manage requirement changes and keep the README up to date.
+- FR-03: The system shall let a student mark a task complete.
 
+## Nonfunctional requirements
 
+- NFR-01: With 100 saved tasks, the task list shall appear within
 
-\## Functional requirements
+2 seconds in at least 95 of 100 trials on an agreed test device.
 
-\- FR-01: The system shall let a student create a task with a title.
+- NFR-02: Every task action shall work using only a keyboard,
 
-\- FR-02: The system shall display the student's saved tasks.
+checked against each documented task workflow.
 
-\- FR-03: The system shall let a student mark a task complete.
+## Acceptance criteria
 
+- FR-01: Given the title "Read Chapter 1", saving a new task
 
+makes that title appear in the task list.
 
-\## Nonfunctional requirements
+- FR-02: Given two saved tasks, opening the list shows both titles.
 
-\- NFR-01: With 100 saved tasks, the task list shall appear within
+- FR-03: Marking an incomplete task complete changes its
 
-&#x20; 2 seconds in at least 95 of 100 trials on an agreed test device.
+displayed status to Complete.
 
-\- NFR-02: Every task action shall work using only a keyboard,
+## Assumptions and open questions
 
-&#x20; checked against each documented task workflow.
+- Assumption A-01: Students will use the tracker on a personal laptop or phone.
 
+- Question Q-01: Should tasks have due dates?
 
+- Question Q-02: Which device will be used to test NFR-01?
 
-\## Acceptance criteria
-
-\- FR-01: Given the title "Read Chapter 1", saving a new task
-
-&#x20; makes that title appear in the task list.
-
-\- FR-02: Given two saved tasks, opening the list shows both titles.
-
-\- FR-03: Marking an incomplete task complete changes its
-
-&#x20; displayed status to Complete.
-
-
-
-\## Assumptions and open questions
-
-\- Assumption A-01: Students will use the tracker on a personal laptop or phone.
-
-\- Question Q-01: Should tasks have due dates?
-
-\- Question Q-02: Which device will be used to test NFR-01?
-
-
-
-\## Project status and viewing
+## Project status and viewing
 
 This is a documentation-only project. No application has been built.
 
 Clone the repository and open README.md in Notepad, or read it on GitHub.
 
-
-
-\## Author
+## Author
 
 Abdullah Afzal, SEF25
 
-
-
-\## Contributing
+## Contributing
 
 Create a documentation branch, edit and review README.md,
 
 commit and push the change, then open a pull request for review.
-
